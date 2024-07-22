@@ -35,6 +35,7 @@ namespace AccessingTheCamera
                     {
                         break;
                     }
+                    // resize the window and use resizedWindow rather than videoCapture
                     Cv2.Resize(videoCapture, resizedWindow, new Size(width, height));
 
                     // I use Cv2.Flip
