@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessingTheCamera", "AccessingTheCamera\AccessingTheCamera.csproj", "{B6045117-32AB-43C2-91B3-7A1F2E557201}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6045117-32AB-43C2-91B3-7A1F2E557201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6045117-32AB-43C2-91B3-7A1F2E557201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6045117-32AB-43C2-91B3-7A1F2E557201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6045117-32AB-43C2-91B3-7A1F2E557201}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51EAA9E4-4FDB-4CB6-A68D-8A0A9AC602CF}
+	EndGlobalSection
+EndGlobal

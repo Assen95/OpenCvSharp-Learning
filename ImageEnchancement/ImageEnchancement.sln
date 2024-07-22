@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageEnchancement", "ImageEnchancement\ImageEnchancement.csproj", "{1560EE94-DA42-4710-AF69-EE6FF21C129E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1560EE94-DA42-4710-AF69-EE6FF21C129E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1560EE94-DA42-4710-AF69-EE6FF21C129E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1560EE94-DA42-4710-AF69-EE6FF21C129E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1560EE94-DA42-4710-AF69-EE6FF21C129E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7882B2DD-8B32-486E-BE68-87313DC21B3A}
+	EndGlobalSection
+EndGlobal
