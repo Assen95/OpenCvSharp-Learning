@@ -5,6 +5,7 @@ using OpenCvSharp;
 // 2. Create a function called GetAvailableCamera() it loops from 1 to 10 with VideoCapture and return a List of available cameras
 // 3. Create a function which returns a list of APIs, use same logic for camera
 // 4. Modify OpenCamera to include GetAPIs() function
+// 5. Create a function, which returns a bool, it checks a frame of the camera, gets the max and min values with Cv2.MinMaxLoc() and checks if the frame's values match with one or the other
 
 namespace AccessingTheCamera
 {
@@ -133,6 +134,11 @@ namespace AccessingTheCamera
                     {
                         break;
                     }
+                    if (CheckIfEntirelyWhiteScreenOrBlackScreen(videoCaptured))
+                    {
+                        Console.WriteLine("Error: the video is entirely white or black!");
+                        break;
+                    }
 
                     Cv2.ImShow($"Camera {selectedCamera + 1}; API: {selectedAPI}", videoCaptured);
 
@@ -145,6 +151,19 @@ namespace AccessingTheCamera
             }
                 Cv2.DestroyAllWindows();
 
+        }
+        static bool CheckIfEntirelyWhiteScreenOrBlackScreen(Mat frame)
+        {
+            Cv2.MinMaxLoc(frame, out double minVal, out double maxVal);
+
+            if ((minVal == 0 && maxVal == 0) || (minVal == 255 & maxVal == 255))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }
