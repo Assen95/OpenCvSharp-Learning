@@ -67,6 +67,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CameraOpener.cs" />
+    <Compile Include="CheckIfScreenBlackOrWhite.cs" />
+    <Compile Include="GetAPIs.cs" />
+    <Compile Include="GetCameras.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
